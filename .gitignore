@@ -6,4 +6,3 @@ __pycache__/
 *.bak
 *.log
 GeneratedEcommerceData.csv
-power-bi/*.pbix
