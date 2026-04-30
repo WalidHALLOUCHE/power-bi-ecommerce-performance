@@ -47,8 +47,10 @@ power_bi_ecomerce/
 |-- docs/
 |   |-- data-dictionary.md
 |   |-- dashboard-spec.md
-|   `-- rebuild-power-bi.md
+|   |-- rebuild-power-bi.md
+|   `-- project-report.md
 |-- power-bi/
+|   |-- PowerBI_Ecommerce_Performance_Walid.pbix
 |   `-- dax-measures.md
 `-- scripts/
     `-- generate_ecommerce_dataset.py
@@ -72,9 +74,17 @@ Les mesures proposees sont documentees dans :
 power-bi/dax-measures.md
 ```
 
+## Rapport de projet
+
+Le detail du travail realise dans Power Query, DAX, la modelisation et la visualisation est documente ici :
+
+```text
+docs/project-report.md
+```
+
 ## Statut
 
-Le projet est pret pour reconstruction dans Power BI Desktop avec le nouveau dataset synthetique. Le fichier PBIX final doit etre ajoute uniquement apres reconnexion au nouveau CSV et refonte des pages.
+Le projet contient le dataset synthetique, la documentation, les mesures DAX et le fichier Power BI final.
 
 ## Confidentialite
 
